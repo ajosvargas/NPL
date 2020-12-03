@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 let path = requrie('path');
 const apiResponse = require ('./apiResponse.js');
+const dotenv = require('dotenv');
+dotenv.config();
 
 app.use(express.static('src/client'));
 
