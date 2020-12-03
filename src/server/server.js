@@ -5,10 +5,10 @@ const apiResponse = require ('./apiResponse.js');
 const dotenv = require('dotenv');
 dotenv.config();
 
-app.use(express.static('src/client'));
+app.use(express.static('dist'));
 
 app.get('/', (req, res) => {
-    res.sendFile('client/pages/index.html', {root : __dirname + '/..'});
+    res.sendFile('dist/index.html');
 })
 
 const port = 3000;
