@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ajosvargas/NPL/issues"
   },
-  "homepage": "https://github.com/ajosvargas/NPL#readme"
+  "homepage": "https://github.com/ajosvargas/NPL#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
