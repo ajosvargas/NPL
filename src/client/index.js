@@ -1,2 +1,2 @@
-import { checkName } from './js/checkname'
+import { updateUI } from './js/updateUI'
 import { formHandle } from './js/formhandle'
